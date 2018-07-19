@@ -2,7 +2,7 @@
     "name": "johnsnook/yii2-bootstrap4-card",
     "description": "It's an amazing widget that encapsulates bootstrap cards.",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"," bootstrap 4"," card"," widget"],
+    "keywords": ["yii2","extension","bootstrap 4","card","widget"],
     "license": "GPL-3.0+",
     "authors": [
         {
