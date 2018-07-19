@@ -28,4 +28,18 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \johnsnook\card\AutoloadExample::widget(); ?>```
+<?php                                                                            
+     echo Card::widget([                        
+        'headerOptions' => ['class' => 'bg-secondary'],
+        'title' => 'Top card',                   
+        'body' => $aBunchOfHtml,                 
+     ]);
+	/* OR */
+     echo Card::begin([                         
+        'containerOptions' => ['class' => 'border border-secondary'],
+        'headerOptions' => ['class' => 'bg-dark text-white'],
+        'title' => 'Top card',
+ 	]);
+?>                                                                              <p class="card-text">                      
+ <?= echo CardlWidget::end();
+```
