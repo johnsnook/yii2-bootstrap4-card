@@ -4,8 +4,8 @@ namespace johnsnook\card;
 
 /**
  * @author John Snook
- * @date 2018-07-2
- * @license https://github.com/johnsnook/yii2-ip-filter/LICENSE
+ * @date 2018-06-02
+ * @license https://github.com/johnsnook/yii2-bootstrap4-card/LICENSE
  * @copyright 2018 John Snook Consulting
  */
 use yii\bootstrap4\Html;
